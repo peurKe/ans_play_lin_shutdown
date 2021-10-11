@@ -1,0 +1,8 @@
+---
+- name: "Shutdown linux target hosts"
+  hosts: "{{ HOSTS }}"
+
+  tasks:
+  - name: "Delay shutting down the remote node"
+    community.general.shutdown:
+      delay: 10
