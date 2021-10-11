@@ -1,5 +1,3 @@
 ---
 collections:
-  - name: https://github.com/peurKe/community-general.git
-    type: git
-    version: main
+  - name: https://github.com/peurKe/community-general/raw/main/community-general-3.7.0.tar.gz
